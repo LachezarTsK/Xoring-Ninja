@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
 public class Solution {
-  private static final int valueForModulo = (int) (Math.pow(10, 9) + 7);
+ private static final int valueForModulo = (int) (Math.pow(10, 9) + 7);
 
-public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int numberOfTestCases = scanner.nextInt();
+ public static void main(String[] args) {
+   Scanner scanner = new Scanner(System.in);
+   int numberOfTestCases = scanner.nextInt();
 
-    while (numberOfTestCases-- > 0) {
-      int numberOfElements = scanner.nextInt();
-      long result = bitwiseOR_allElements_modValueForModulo(numberOfElements, scanner);
-      System.out.println(result);
-    }
+   while (numberOfTestCases-- > 0) {
+     int numberOfElements = scanner.nextInt();
+     long result = bitwiseOR_allElements_modValueForModulo(numberOfElements, scanner);
+     System.out.println(result);
+   }
     scanner.close();
   }
   
